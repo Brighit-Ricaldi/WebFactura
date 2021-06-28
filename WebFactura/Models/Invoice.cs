@@ -27,7 +27,7 @@ namespace WebFactura.Models
 
         public double IGV { get; set; }
 
-        public virtual Clients Clients { get; set; }
+        public virtual Client Client { get; set; }
 
 
 

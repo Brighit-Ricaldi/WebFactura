@@ -17,9 +17,9 @@ namespace WebFactura.Models
 
         public double SubTotal { get; set; }
 
-        public virtual ICollection<Clients> Clients { get; set; }
+        public virtual ICollection<Client> Clients { get; set; }
 
-        public virtual Products Products { get; set; }
+        public virtual Product Product { get; set; }
         public virtual Invoice Invoice { get; set; }
 
     }

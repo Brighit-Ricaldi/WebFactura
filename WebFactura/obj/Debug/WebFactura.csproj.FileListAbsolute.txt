@@ -88,3 +88,5 @@ D:\6 CICLO Tecsup-2021 I\Desarrollo de Aplicaciones Empresariales Avanzado\Proye
 D:\6 CICLO Tecsup-2021 I\Desarrollo de Aplicaciones Empresariales Avanzado\Proyectos\FacturaDetalle\WebFactura\bin\EntityFramework.SqlServer.dll
 D:\6 CICLO Tecsup-2021 I\Desarrollo de Aplicaciones Empresariales Avanzado\Proyectos\FacturaDetalle\WebFactura\bin\EntityFramework.xml
 D:\6 CICLO Tecsup-2021 I\Desarrollo de Aplicaciones Empresariales Avanzado\Proyectos\FacturaDetalle\WebFactura\bin\EntityFramework.SqlServer.xml
+D:\6 CICLO Tecsup-2021 I\Desarrollo de Aplicaciones Empresariales Avanzado\Proyectos\FacturaDetalle\WebFactura\obj\Debug\WebFactura.Migrations.v1.resources
+D:\6 CICLO Tecsup-2021 I\Desarrollo de Aplicaciones Empresariales Avanzado\Proyectos\FacturaDetalle\WebFactura\obj\Debug\WebFactura.csproj.GenerateResource.cache
