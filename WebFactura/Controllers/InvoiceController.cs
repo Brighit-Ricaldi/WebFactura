@@ -6,27 +6,27 @@ using System.Web.Mvc;
 
 namespace WebFactura.Controllers
 {
-    public class FacturaController : Controller
+    public class InvoiceController : Controller
     {
-        // GET: Factura
+        // GET: Invoice
         public ActionResult Index()
         {
             return View();
         }
 
-        // GET: Factura/Details/5
+        // GET: Invoice/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: Factura/Create
+        // GET: Invoice/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Factura/Create
+        // POST: Invoice/Create
         [HttpPost]
         public ActionResult Create(FormCollection collection)
         {
@@ -42,13 +42,13 @@ namespace WebFactura.Controllers
             }
         }
 
-        // GET: Factura/Edit/5
+        // GET: Invoice/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: Factura/Edit/5
+        // POST: Invoice/Edit/5
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
         {
@@ -64,13 +64,13 @@ namespace WebFactura.Controllers
             }
         }
 
-        // GET: Factura/Delete/5
+        // GET: Invoice/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: Factura/Delete/5
+        // POST: Invoice/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
         {
