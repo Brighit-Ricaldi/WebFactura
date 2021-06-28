@@ -19,6 +19,7 @@ namespace WebFactura.Models
 
         public virtual ICollection<Clients> Clients { get; set; }
 
+        public virtual Products Products { get; set; }
         public virtual Invoice Invoice { get; set; }
 
     }

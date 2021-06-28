@@ -6,7 +6,7 @@ using System.Web;
 
 namespace WebFactura.Models
 {
-    public class Products
+    public class Product
     {
         public int ProductID { get; set; }
 
@@ -19,5 +19,7 @@ namespace WebFactura.Models
 
         [StringLength(50, MinimumLength = 3)]
         public string Brand { get; set; }
+
+        public virtual ICollection<InvoiceDetail> InvoiceDetails { get; set; }
     }
 }

@@ -13,7 +13,7 @@ namespace WebFactura.Models
         public int RucEmisor { get; set; }
 
         [StringLength(100, MinimumLength = 3)]
-        public string Address {get; set;}
+        public string AddressInv {get; set;}
         public int RucClient { get; set; }
 
         [DataType(DataType.Date)]

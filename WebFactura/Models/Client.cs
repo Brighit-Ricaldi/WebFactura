@@ -6,7 +6,7 @@ using System.Web;
 
 namespace WebFactura.Models
 {
-    public class Clients
+    public class Client
     {
         [Display (Name="Number")]
         public int ClientID { get; set; }
@@ -17,7 +17,7 @@ namespace WebFactura.Models
 
 
         [StringLength(50, MinimumLength = 3)]
-        public string Lastname { get; set; }
+        public string LastName { get; set; }
 
         public int Dni { get; set; }
         
@@ -25,7 +25,10 @@ namespace WebFactura.Models
 
 
         [StringLength(100, MinimumLength = 3)]
+        
         public string Address { get; set; }
+
+        public virtual ICollection<Invoice> Invoices { get; set; } 
 
     }
 }
